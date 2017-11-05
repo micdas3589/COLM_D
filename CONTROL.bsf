@@ -206,6 +206,13 @@ agreement for further details.
 		(text "RUN_DK3" (rect 164 251 211 263)(font "Arial" ))
 		(line (pt 232 256)(pt 216 256)(line_width 1))
 	)
+	(port
+		(pt 232 272)
+		(output)
+		(text "TAG_VER" (rect 0 0 50 12)(font "Arial" ))
+		(text "TAG_VER" (rect 161 267 211 279)(font "Arial" ))
+		(line (pt 232 272)(pt 216 272)(line_width 1))
+	)
 	(drawing
 		(rectangle (rect 16 16 216 288)(line_width 1))
 	)
