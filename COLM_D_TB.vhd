@@ -37,48 +37,43 @@ BEGIN
 	
 	PROCESS
 	BEGIN
+	
 		INIT <= '1'; WR <= '0'; RD <= '0'; ADDR_WR <= X"00000000"; DIN <= X"00000000"; wait for CLKp;
 
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"3B324663"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"683C48EA"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"DE4901A3"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"776389D9"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"742C26A7"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"28573C22"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"C9D55FF3"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"7E104968"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"A89DB2CA"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"D86DA110"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"B5E3ACDD"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"8E7249EA"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"82F32187"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"ADCA33B6"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"999D3AA7"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"CF999F9C"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"44444444"; DIN <= X"5F67B514"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"44444444"; DIN <= X"E9BCF0D2"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"44444444"; DIN <= X"E363AD5F"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"44444444"; DIN <= X"3ACFB4D1"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"44444444"; DIN <= X"A336981C"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"44444444"; DIN <= X"25E99C58"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"44444444"; DIN <= X"46CD5571"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"44444444"; DIN <= X"388F19D1"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"00000000"; DIN <= X"00112233"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"00000001"; DIN <= X"44556677"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"00000002"; DIN <= X"8899AABB"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"00000003"; DIN <= X"CCDDEEFF"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"00000004"; DIN <= X"11111111"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"00000005"; DIN <= X"22222222"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"3651C484"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"53AB20DA"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"359D7879"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"FAED5666"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"1408AD58"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"8C46D4D5"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"BA9F9A98"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"88F428F0"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"004D7F4C"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"B46EFD87"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"3B667430"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"33333333"; DIN <= X"A86E9622"; wait for CLKp;
+		
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"44444444"; DIN <= X"E8E5CC52"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"44444444"; DIN <= X"DBE6E91C"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"44444444"; DIN <= X"E788E4E7"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"44444444"; DIN <= X"4E75F375"; wait for CLKp;
+		
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"00000000"; DIN <= X"55565758"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"00000001"; DIN <= X"595A5B5C"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"00000002"; DIN <= X"5D5E5F60"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"00000003"; DIN <= X"61626364"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"00000004"; DIN <= X"B0B1B2B3"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"00000005"; DIN <= X"B4B5B6B7"; wait for CLKp;
 		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"00000006"; DIN <= X"00028000"; wait for CLKp;
 		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"00000007"; DIN <= X"00000000"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"00000008"; DIN <= X"FDE4FBAE"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"00000009"; DIN <= X"4A09E020"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"0000000A"; DIN <= X"EFF72296"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"0000000B"; DIN <= X"9F83832B"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"0000000C"; DIN <= X"75FC664E"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"0000000D"; DIN <= X"963541F6"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"0000000E"; DIN <= X"0B1014EA"; wait for CLKp;
-		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"0000000F"; DIN <= X"01238AE0"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"00000008"; DIN <= X"DA8915C2"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"00000009"; DIN <= X"7C4B490E"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"0000000A"; DIN <= X"FA762F48"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"0000000B"; DIN <= X"1EA3A6BF"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"0000000C"; DIN <= X"F13BD440"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"0000000D"; DIN <= X"41F48E7F"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"0000000E"; DIN <= X"1829D6C5"; wait for CLKp;
+		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"0000000F"; DIN <= X"C04C82D6"; wait for CLKp;
 		INIT <= '0'; WR <= '0'; RD <= '0'; ADDR_WR <= X"00000000"; DIN <= X"00000000"; wait for 50*CLKp;
 		INIT <= '0'; WR <= '1'; RD <= '0'; ADDR_WR <= X"FFFFFFFF"; DIN <= X"00000000"; wait for CLKp;
 		INIT <= '0'; WR <= '0'; RD <= '0'; ADDR_WR <= X"00000000"; DIN <= X"00000000"; wait for 350*CLKp;
