@@ -15,7 +15,7 @@
 
 -- PROGRAM		"Quartus II 64-Bit"
 -- VERSION		"Version 15.0.0 Build 145 04/22/2015 Patches 0.01we SJ Web Edition"
--- CREATED		"Thu Dec 28 17:08:52 2017"
+-- CREATED		"Sat Dec 30 20:26:22 2017"
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.all; 
@@ -43,7 +43,6 @@ COMPONENT control
 		 WR : IN STD_LOGIC;
 		 RD : IN STD_LOGIC;
 		 DRL_CTX : IN STD_LOGIC;
-		 DRL_PTX : IN STD_LOGIC;
 		 DRL_TAG : IN STD_LOGIC;
 		 TAG_VALID : IN STD_LOGIC;
 		 ADDR_WR : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
@@ -265,7 +264,6 @@ PORT MAP(CLK => CLK,
 		 WR => WR,
 		 RD => RD,
 		 DRL_CTX => DRL_CTX,
-		 DRL_PTX => DRL_PTX,
 		 DRL_TAG => DRL_TAG,
 		 TAG_VALID => TAG_VALID,
 		 ADDR_WR => ADDR_WR,
@@ -365,7 +363,6 @@ PORT MAP(CLK => CLK,
 		 STORE => WR_PTX,
 		 LOAD => RD_PTX,
 		 DIN => PTX,
-		 DRL => DRL_PTX,
 		 DOUT => SYNTHESIZED_WIRE_1);
 
 
